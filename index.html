@@ -1,0 +1,428 @@
+<!DOCTYPE html><html lang="es"><head>
+	
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width"/>
+<meta name="builder" content="Stronglify"/>
+<link rel="icon" type="image/x-icon" href="https://media.stronglify.com/295/favicon-1791313273-1791391837.svg"/>
+<title>Carambola | Index</title>
+<meta name="description" content="12 mesas de pool, 2 de carambola, arcade retro, ping-pong y dardos en la calle 45 de Chapinero. Hamburguesas, cerveza artesanal de barril y torneos cada semana. Reserva tu mesa."/>
+<meta name="robots" content="index"/>
+<link rel="canonical" href="https://stronglifythemes.github.io/"/><style>
+html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,[type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}
+fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}img{max-width:100%;height:auto}
+</style><link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&amp;family=Archivo:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<script src="https://media.stronglify.com/tailwind-play-3.4.17.js"></script>
+<script>tailwind.config = {
+theme: {
+extend: {
+colors: {
+verde: '#59D98E',
+negro: '#101713',
+tinta: '#101713'
+},
+fontFamily: {
+display: ['"Archivo Black"', '"Arial Black"', 'sans-serif'],
+sans: ['Archivo', 'Helvetica', 'Arial', 'sans-serif']
+}
+}
+}
+}</script>
+<style>:focus-visible { outline: 3px solid currentColor; outline-offset: 3px; } @keyframes rodar { from { transform: translateX(-80vw) rotate(-900deg); } to { transform: translateX(0) rotate(0deg); } } .bola { animation: rodar 1.2s cubic-bezier(0.22, 0.8, 0.3, 1) 0.15s both; } @media (prefers-reduced-motion: reduce) { .bola { animation: none; } }</style></head>
+<body class="bg-negro font-sans text-verde antialiased">
+  <header class="px-4 pt-4 md:px-6 lg:px-8 lg:pt-5">
+    <div class="mx-auto flex max-w-[1400px] items-center justify-between gap-6">
+      <a href="/carambola/" class="font-display text-2xl uppercase leading-none tracking-[-0.04em] md:text-3xl" aria-label="Carambola — Inicio">Carambola</a>
+      <nav aria-label="Menú principal" class="hidden lg:block">
+        <ul class="flex items-center gap-2 text-[15px] font-medium">
+          <li><a href="/carambola/" class="inline-flex rounded-full border-2 border-transparent px-4 py-1.5 hover:border-verde">Inicio</a></li>
+          <li><a href="/carambola/page" class="inline-flex rounded-full border-2 border-transparent px-4 py-1.5 hover:border-verde">Nosotros</a></li>
+          <li><a href="/carambola/blog" class="inline-flex rounded-full border-2 border-transparent px-4 py-1.5 hover:border-verde">Blog</a></li>
+          <li><a href="/carambola/contact" class="inline-flex rounded-full border-2 border-transparent px-4 py-1.5 hover:border-verde">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="flex items-center gap-3 lg:hidden">
+
+        <button id="menu-abrir" type="button" aria-expanded="false" aria-controls="menu-movil" aria-label="Abrir menú" class="inline-flex h-11 w-11 items-center justify-center rounded-full border-2 border-verde lg:hidden">
+          <svg class="h-4 w-5" viewBox="0 0 20 16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M1 2h18M1 8h18M1 14h18"></path></svg>
+        </button>
+      </div>
+    </div>
+
+    <nav id="menu-movil" aria-label="Menú móvil" class="fixed inset-0 z-50 hidden flex-col overflow-y-auto bg-negro px-4 pb-8 pt-4 text-verde lg:hidden">
+      <div class="flex items-center justify-between">
+        <span class="font-display text-2xl uppercase leading-none tracking-[-0.04em]">Carambola</span>
+        <button id="menu-cerrar" type="button" aria-label="Cerrar menú" class="inline-flex h-11 w-11 items-center justify-center rounded-full border-2 border-verde">
+          <svg class="h-4 w-4" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M2 2l12 12M14 2L2 14"></path></svg>
+        </button>
+      </div>
+      <ul class="mt-auto space-y-3 pt-12 font-display text-[clamp(3rem,16vw,5.5rem)] uppercase leading-[0.9] tracking-[-0.03em]">
+        <li><a href="/carambola/">Inicio</a></li>
+        <li><a href="/carambola/page">Nosotros</a></li>
+        <li><a href="/carambola/blog">Blog</a></li>
+        <li><a href="/carambola/contact">Contacto</a></li>
+      </ul>
+
+    </nav>
+  </header>
+
+<div aria-hidden="true" style="display:none" class="border-2 border-transparent flex flex-col font-display gap-10 gap-2 gap-4 grid h-11 h-5 hover:border-negro hover:underline inline-flex items-center justify-center leading-none leading-relaxed max-w-sm md:col-span-2 md:col-span-3 md:col-span-5 md:flex-row md:gap-8 md:grid-cols-12 md:items-center md:justify-between mt-12 mt-4 not-italic pt-6 rounded-full space-y-2 text-3xl text-[15px] text-base text-negro text-sm tracking-[-0.04em] underline-offset-4 uppercase w-11 w-5"></div>
+<main class="mx-auto max-w-[1400px] px-4 pt-4 md:px-6 lg:px-8 lg:pt-5 text-negro">
+
+<section aria-label="Portada" class="relative flex min-h-[560px] flex-col justify-between overflow-hidden rounded-[32px] bg-verde p-6 md:min-h-[640px] md:p-12 lg:min-h-[700px] lg:p-14">
+<h1 class="relative z-10 max-w-[14ch] font-display text-[clamp(2.5rem,7.2vw,7rem)] uppercase leading-[0.9] tracking-[-0.03em]">Pool, carambola y cerveza fría en la 45</h1>
+<div class="relative z-10 mt-10 flex flex-wrap items-center gap-3 pr-28 md:pr-48">
+<a class="inline-flex items-center justify-center rounded-full bg-negro px-7 py-3.5 font-display text-sm uppercase text-verde hover:bg-tinta" href="#">Reservar mesa</a>
+<a class="inline-flex items-center justify-center rounded-full border-2 border-tinta bg-verde px-6 py-3 text-sm font-semibold hover:bg-tinta hover:text-verde" href="#">Ver precios</a>
+<p class="hidden items-center rounded-full bg-verde px-4 py-2 text-sm font-semibold text-negro sm:inline-flex">Hoy abrimos a las 2:00 p. m.</p>
+</div>
+<div aria-hidden="true" class="bola absolute bottom-6 right-6 flex h-24 w-24 items-center justify-center rounded-full bg-negro md:bottom-10 md:right-10 md:h-40 md:w-40">
+<span class="flex h-[44%] w-[44%] items-center justify-center rounded-full bg-verde font-display text-[1.5rem] leading-none md:text-[2.6rem]">8</span>
+</div>
+</section>
+
+<section class="mt-4 rounded-[32px] bg-negro p-6 text-verde md:mt-5 md:p-12 lg:p-14">
+<div class="grid gap-8 lg:grid-cols-12 lg:gap-12">
+<div class="lg:col-span-7">
+<h2 class="font-display text-[clamp(1.75rem,3.6vw,3rem)] uppercase leading-[0.92] tracking-[-0.02em] text-verde">Un bar de juegos en Chapinero, abierto desde las 2 de la tarde</h2>
+<p class="mt-5 max-w-xl text-base leading-relaxed md:text-lg">Carambola queda en la calle 45 con carrera 8, a dos cuadras de la Javeriana. Cobramos por hora de mesa y no por persona: vengan cuatro o vengan diez, pagan lo mismo. Hay hamburguesas, cerveza de barril y un torneo distinto cada semana.</p>
+</div>
+<ul class="flex flex-wrap content-start gap-3 lg:col-span-5 lg:justify-end">
+
+<li class="rounded-full px-4 py-2 text-sm font-semibold text-verde carambola-presentacion_equipos"><span>12 mesas de pool</span></li>
+
+<li class="rounded-full px-4 py-2 text-sm font-semibold text-verde carambola-presentacion_equipos"><span>2 mesas de carambola</span></li>
+
+<li class="rounded-full px-4 py-2 text-sm font-semibold text-verde carambola-presentacion_equipos"><span>8 máquinas de arcade</span></li>
+
+<li class="rounded-full px-4 py-2 text-sm font-semibold text-verde carambola-presentacion_equipos"><span>3 mesas de ping-pong</span></li>
+
+<li class="rounded-full px-4 py-2 text-sm font-semibold text-verde carambola-presentacion_equipos"><span>4 dianas</span></li>
+
+<li class="rounded-full px-4 py-2 text-sm font-semibold text-verde carambola-presentacion_equipos"><span>Torneo cada semana</span></li>
+
+
+
+
+
+
+</ul>
+</div>
+</section>
+
+<section class="mt-14 md:mt-20">
+<h2 class="font-display text-[clamp(2.25rem,5vw,4.5rem)] uppercase leading-[0.9] tracking-[-0.03em]">Qué hay para jugar</h2>
+<ul class="mt-6 grid gap-4 md:grid-cols-6 md:gap-5 lg:mt-8">
+
+<li class="flex min-h-[260px] flex-col justify-between rounded-[32px] p-6 md:p-8 [&amp;:nth-of-type(5n+1)]:bg-verde md:[&amp;:nth-of-type(5n+1)]:col-span-3 md:[&amp;:nth-of-type(5n+1)]:min-h-[300px] [&amp;:nth-of-type(5n+2)]:bg-negro [&amp;:nth-of-type(5n+2)]:text-verde md:[&amp;:nth-of-type(5n+2)]:col-span-3 md:[&amp;:nth-of-type(5n+2)]:min-h-[300px] [&amp;:nth-of-type(5n+3)]:bg-verde md:[&amp;:nth-of-type(5n+3)]:col-span-2 [&amp;:nth-of-type(5n+4)]:bg-negro [&amp;:nth-of-type(5n+4)]:text-verde md:[&amp;:nth-of-type(5n+4)]:col-span-2 [&amp;:nth-of-type(5n+5)]:bg-verde md:[&amp;:nth-of-type(5n+5)]:col-span-2 carambola-juegos_items">
+<div>
+<h3 class="font-display text-2xl uppercase leading-none tracking-[-0.02em] md:text-3xl [.carambola-juegos_items:nth-of-type(5n+2)_&amp;]:text-verde [.carambola-juegos_items:nth-of-type(5n+4)_&amp;]:text-verde">Pool</h3>
+<p class="mt-3 text-[15px] leading-relaxed [.carambola-juegos_items:nth-of-type(5n+1)_&amp;]:max-w-md [.carambola-juegos_items:nth-of-type(5n+2)_&amp;]:max-w-md">12 mesas de 8 pies con paño cambiado en marzo. Hay tacos y tiza en cada mesa, y si traes el tuyo te lo guardamos en la barra.</p>
+</div>
+<p class="mt-8 self-end rounded-full px-4 py-1.5 text-sm font-semibold [.carambola-juegos_items:nth-of-type(5n+1)_&amp;]:bg-negro [.carambola-juegos_items:nth-of-type(5n+1)_&amp;]:text-verde [.carambola-juegos_items:nth-of-type(5n+2)_&amp;]:bg-verde [.carambola-juegos_items:nth-of-type(5n+2)_&amp;]:text-negro [.carambola-juegos_items:nth-of-type(5n+3)_&amp;]:bg-negro [.carambola-juegos_items:nth-of-type(5n+3)_&amp;]:text-verde [.carambola-juegos_items:nth-of-type(5n+4)_&amp;]:bg-verde [.carambola-juegos_items:nth-of-type(5n+4)_&amp;]:text-negro [.carambola-juegos_items:nth-of-type(5n+5)_&amp;]:bg-negro [.carambola-juegos_items:nth-of-type(5n+5)_&amp;]:text-verde">12 mesas</p>
+</li>
+
+<li class="flex min-h-[260px] flex-col justify-between rounded-[32px] p-6 md:p-8 [&amp;:nth-of-type(5n+1)]:bg-verde md:[&amp;:nth-of-type(5n+1)]:col-span-3 md:[&amp;:nth-of-type(5n+1)]:min-h-[300px] [&amp;:nth-of-type(5n+2)]:bg-negro [&amp;:nth-of-type(5n+2)]:text-verde md:[&amp;:nth-of-type(5n+2)]:col-span-3 md:[&amp;:nth-of-type(5n+2)]:min-h-[300px] [&amp;:nth-of-type(5n+3)]:bg-verde md:[&amp;:nth-of-type(5n+3)]:col-span-2 [&amp;:nth-of-type(5n+4)]:bg-negro [&amp;:nth-of-type(5n+4)]:text-verde md:[&amp;:nth-of-type(5n+4)]:col-span-2 [&amp;:nth-of-type(5n+5)]:bg-verde md:[&amp;:nth-of-type(5n+5)]:col-span-2 carambola-juegos_items">
+<div>
+<h3 class="font-display text-2xl uppercase leading-none tracking-[-0.02em] md:text-3xl [.carambola-juegos_items:nth-of-type(5n+2)_&amp;]:text-verde [.carambola-juegos_items:nth-of-type(5n+4)_&amp;]:text-verde">Carambola</h3>
+<p class="mt-3 text-[15px] leading-relaxed [.carambola-juegos_items:nth-of-type(5n+1)_&amp;]:max-w-md [.carambola-juegos_items:nth-of-type(5n+2)_&amp;]:max-w-md">2 mesas de 10 pies sin troneras, para tres bandas y libre. Son las únicas del sector y los sábados se juegan en torneo.</p>
+</div>
+<p class="mt-8 self-end rounded-full px-4 py-1.5 text-sm font-semibold [.carambola-juegos_items:nth-of-type(5n+1)_&amp;]:bg-negro [.carambola-juegos_items:nth-of-type(5n+1)_&amp;]:text-verde [.carambola-juegos_items:nth-of-type(5n+2)_&amp;]:bg-verde [.carambola-juegos_items:nth-of-type(5n+2)_&amp;]:text-negro [.carambola-juegos_items:nth-of-type(5n+3)_&amp;]:bg-negro [.carambola-juegos_items:nth-of-type(5n+3)_&amp;]:text-verde [.carambola-juegos_items:nth-of-type(5n+4)_&amp;]:bg-verde [.carambola-juegos_items:nth-of-type(5n+4)_&amp;]:text-negro [.carambola-juegos_items:nth-of-type(5n+5)_&amp;]:bg-negro [.carambola-juegos_items:nth-of-type(5n+5)_&amp;]:text-verde">2 mesas</p>
+</li>
+
+<li class="flex min-h-[260px] flex-col justify-between rounded-[32px] p-6 md:p-8 [&amp;:nth-of-type(5n+1)]:bg-verde md:[&amp;:nth-of-type(5n+1)]:col-span-3 md:[&amp;:nth-of-type(5n+1)]:min-h-[300px] [&amp;:nth-of-type(5n+2)]:bg-negro [&amp;:nth-of-type(5n+2)]:text-verde md:[&amp;:nth-of-type(5n+2)]:col-span-3 md:[&amp;:nth-of-type(5n+2)]:min-h-[300px] [&amp;:nth-of-type(5n+3)]:bg-verde md:[&amp;:nth-of-type(5n+3)]:col-span-2 [&amp;:nth-of-type(5n+4)]:bg-negro [&amp;:nth-of-type(5n+4)]:text-verde md:[&amp;:nth-of-type(5n+4)]:col-span-2 [&amp;:nth-of-type(5n+5)]:bg-verde md:[&amp;:nth-of-type(5n+5)]:col-span-2 carambola-juegos_items">
+<div>
+<h3 class="font-display text-2xl uppercase leading-none tracking-[-0.02em] md:text-3xl [.carambola-juegos_items:nth-of-type(5n+2)_&amp;]:text-verde [.carambola-juegos_items:nth-of-type(5n+4)_&amp;]:text-verde">Arcade</h3>
+<p class="mt-3 text-[15px] leading-relaxed [.carambola-juegos_items:nth-of-type(5n+1)_&amp;]:max-w-md [.carambola-juegos_items:nth-of-type(5n+2)_&amp;]:max-w-md">Ocho máquinas de los noventa que funcionan con fichas: peleas, naves, carreras y un pinball.</p>
+</div>
+<p class="mt-8 self-end rounded-full px-4 py-1.5 text-sm font-semibold [.carambola-juegos_items:nth-of-type(5n+1)_&amp;]:bg-negro [.carambola-juegos_items:nth-of-type(5n+1)_&amp;]:text-verde [.carambola-juegos_items:nth-of-type(5n+2)_&amp;]:bg-verde [.carambola-juegos_items:nth-of-type(5n+2)_&amp;]:text-negro [.carambola-juegos_items:nth-of-type(5n+3)_&amp;]:bg-negro [.carambola-juegos_items:nth-of-type(5n+3)_&amp;]:text-verde [.carambola-juegos_items:nth-of-type(5n+4)_&amp;]:bg-verde [.carambola-juegos_items:nth-of-type(5n+4)_&amp;]:text-negro [.carambola-juegos_items:nth-of-type(5n+5)_&amp;]:bg-negro [.carambola-juegos_items:nth-of-type(5n+5)_&amp;]:text-verde">Fichas a $2.000</p>
+</li>
+
+<li class="flex min-h-[260px] flex-col justify-between rounded-[32px] p-6 md:p-8 [&amp;:nth-of-type(5n+1)]:bg-verde md:[&amp;:nth-of-type(5n+1)]:col-span-3 md:[&amp;:nth-of-type(5n+1)]:min-h-[300px] [&amp;:nth-of-type(5n+2)]:bg-negro [&amp;:nth-of-type(5n+2)]:text-verde md:[&amp;:nth-of-type(5n+2)]:col-span-3 md:[&amp;:nth-of-type(5n+2)]:min-h-[300px] [&amp;:nth-of-type(5n+3)]:bg-verde md:[&amp;:nth-of-type(5n+3)]:col-span-2 [&amp;:nth-of-type(5n+4)]:bg-negro [&amp;:nth-of-type(5n+4)]:text-verde md:[&amp;:nth-of-type(5n+4)]:col-span-2 [&amp;:nth-of-type(5n+5)]:bg-verde md:[&amp;:nth-of-type(5n+5)]:col-span-2 carambola-juegos_items">
+<div>
+<h3 class="font-display text-2xl uppercase leading-none tracking-[-0.02em] md:text-3xl [.carambola-juegos_items:nth-of-type(5n+2)_&amp;]:text-verde [.carambola-juegos_items:nth-of-type(5n+4)_&amp;]:text-verde">Ping-pong</h3>
+<p class="mt-3 text-[15px] leading-relaxed [.carambola-juegos_items:nth-of-type(5n+1)_&amp;]:max-w-md [.carambola-juegos_items:nth-of-type(5n+2)_&amp;]:max-w-md">3 mesas con red fija y raquetas prestadas. Se juega a 11 puntos y el que pierde paga la ronda.</p>
+</div>
+<p class="mt-8 self-end rounded-full px-4 py-1.5 text-sm font-semibold [.carambola-juegos_items:nth-of-type(5n+1)_&amp;]:bg-negro [.carambola-juegos_items:nth-of-type(5n+1)_&amp;]:text-verde [.carambola-juegos_items:nth-of-type(5n+2)_&amp;]:bg-verde [.carambola-juegos_items:nth-of-type(5n+2)_&amp;]:text-negro [.carambola-juegos_items:nth-of-type(5n+3)_&amp;]:bg-negro [.carambola-juegos_items:nth-of-type(5n+3)_&amp;]:text-verde [.carambola-juegos_items:nth-of-type(5n+4)_&amp;]:bg-verde [.carambola-juegos_items:nth-of-type(5n+4)_&amp;]:text-negro [.carambola-juegos_items:nth-of-type(5n+5)_&amp;]:bg-negro [.carambola-juegos_items:nth-of-type(5n+5)_&amp;]:text-verde">3 mesas</p>
+</li>
+
+<li class="flex min-h-[260px] flex-col justify-between rounded-[32px] p-6 md:p-8 [&amp;:nth-of-type(5n+1)]:bg-verde md:[&amp;:nth-of-type(5n+1)]:col-span-3 md:[&amp;:nth-of-type(5n+1)]:min-h-[300px] [&amp;:nth-of-type(5n+2)]:bg-negro [&amp;:nth-of-type(5n+2)]:text-verde md:[&amp;:nth-of-type(5n+2)]:col-span-3 md:[&amp;:nth-of-type(5n+2)]:min-h-[300px] [&amp;:nth-of-type(5n+3)]:bg-verde md:[&amp;:nth-of-type(5n+3)]:col-span-2 [&amp;:nth-of-type(5n+4)]:bg-negro [&amp;:nth-of-type(5n+4)]:text-verde md:[&amp;:nth-of-type(5n+4)]:col-span-2 [&amp;:nth-of-type(5n+5)]:bg-verde md:[&amp;:nth-of-type(5n+5)]:col-span-2 carambola-juegos_items">
+<div>
+<h3 class="font-display text-2xl uppercase leading-none tracking-[-0.02em] md:text-3xl [.carambola-juegos_items:nth-of-type(5n+2)_&amp;]:text-verde [.carambola-juegos_items:nth-of-type(5n+4)_&amp;]:text-verde">Dardos</h3>
+<p class="mt-3 text-[15px] leading-relaxed [.carambola-juegos_items:nth-of-type(5n+1)_&amp;]:max-w-md [.carambola-juegos_items:nth-of-type(5n+2)_&amp;]:max-w-md">4 dianas de cerda con marcador electrónico para 501 y críquet. Los martes hay liga.</p>
+</div>
+<p class="mt-8 self-end rounded-full px-4 py-1.5 text-sm font-semibold [.carambola-juegos_items:nth-of-type(5n+1)_&amp;]:bg-negro [.carambola-juegos_items:nth-of-type(5n+1)_&amp;]:text-verde [.carambola-juegos_items:nth-of-type(5n+2)_&amp;]:bg-verde [.carambola-juegos_items:nth-of-type(5n+2)_&amp;]:text-negro [.carambola-juegos_items:nth-of-type(5n+3)_&amp;]:bg-negro [.carambola-juegos_items:nth-of-type(5n+3)_&amp;]:text-verde [.carambola-juegos_items:nth-of-type(5n+4)_&amp;]:bg-verde [.carambola-juegos_items:nth-of-type(5n+4)_&amp;]:text-negro [.carambola-juegos_items:nth-of-type(5n+5)_&amp;]:bg-negro [.carambola-juegos_items:nth-of-type(5n+5)_&amp;]:text-verde">4 dianas</p>
+</li>
+
+
+
+
+
+</ul>
+</section>
+
+<section class="mt-4 rounded-[32px] bg-negro p-6 text-verde md:mt-5 md:p-12 lg:p-14">
+<div class="grid gap-10 lg:grid-cols-12 lg:gap-14">
+<div class="lg:col-span-4">
+<h2 class="font-display text-[clamp(1.75rem,3.6vw,3rem)] uppercase leading-[0.92] tracking-[-0.02em] text-verde">Precios por hora de mesa</h2>
+<div class="[&amp;&gt;p:nth-of-type(1)]:mt-4 [&amp;&gt;p:nth-of-type(1)]:text-[15px] [&amp;&gt;p:nth-of-type(1)]:leading-relaxed [&amp;&gt;p:nth-of-type(2)]:mt-4 [&amp;&gt;p:nth-of-type(2)]:text-[15px] [&amp;&gt;p:nth-of-type(2)]:leading-relaxed"><p>La hora empieza cuando te entregamos las bolas y se extiende de a media hora. Se paga por mesa, sin importar cuántos jueguen.</p><p>De lunes a jueves entre 2:00 y 5:00 p. m. la mesa de pool queda a $15.000.</p></div>
+
+<p class="mt-6 inline-flex rounded-full px-4 py-1.5 text-sm font-semibold text-verde">Hora feliz de 2:00 a 5:00 p. m.</p>
+</div>
+<ul class="grid gap-x-12 gap-y-10 sm:grid-cols-2 lg:col-span-8">
+
+<li class="flex flex-col items-start gap-4 carambola-precios_tarifas">
+<div><h3 class="font-display text-lg uppercase leading-none">Pool</h3><p class="mt-1 text-sm text-verde/80">Lunes a jueves</p></div>
+<p class="shrink-0 rounded-full bg-verde px-4 py-1.5 text-sm font-semibold text-negro">$22.000 la hora</p>
+</li>
+
+<li class="flex flex-col items-start gap-4 carambola-precios_tarifas">
+<div><h3 class="font-display text-lg uppercase leading-none">Pool</h3><p class="mt-1 text-sm text-verde/80">Viernes, sábados y festivos</p></div>
+<p class="shrink-0 rounded-full bg-verde px-4 py-1.5 text-sm font-semibold text-negro">$28.000 la hora</p>
+</li>
+
+<li class="flex flex-col items-start gap-4 carambola-precios_tarifas">
+<div><h3 class="font-display text-lg uppercase leading-none">Carambola</h3><p class="mt-1 text-sm text-verde/80">Mesa de 10 pies, incluye las tres bolas</p></div>
+<p class="shrink-0 rounded-full bg-verde px-4 py-1.5 text-sm font-semibold text-negro">$30.000 la hora</p>
+</li>
+
+<li class="flex flex-col items-start gap-4 carambola-precios_tarifas">
+<div><h3 class="font-display text-lg uppercase leading-none">Ping-pong</h3><p class="mt-1 text-sm text-verde/80">Raquetas y bolas incluidas</p></div>
+<p class="shrink-0 rounded-full bg-verde px-4 py-1.5 text-sm font-semibold text-negro">$15.000 la hora</p>
+</li>
+
+<li class="flex flex-col items-start gap-4 carambola-precios_tarifas">
+<div><h3 class="font-display text-lg uppercase leading-none">Dardos</h3><p class="mt-1 text-sm text-verde/80">Diana con marcador, hasta 4 jugadores</p></div>
+<p class="shrink-0 rounded-full bg-verde px-4 py-1.5 text-sm font-semibold text-negro">$10.000 la hora</p>
+</li>
+
+<li class="flex flex-col items-start gap-4 carambola-precios_tarifas">
+<div><h3 class="font-display text-lg uppercase leading-none">Arcade</h3><p class="mt-1 text-sm text-verde/80">Fichas en la barra, seis por $10.000</p></div>
+<p class="shrink-0 rounded-full bg-verde px-4 py-1.5 text-sm font-semibold text-negro">$2.000 la ficha</p>
+</li>
+
+
+
+
+
+
+</ul>
+</div>
+</section>
+
+<section class="mt-4 rounded-[32px] bg-verde p-6 md:mt-5 md:p-12 lg:p-14">
+<div class="flex flex-wrap items-end justify-between gap-x-8 gap-y-4">
+<h2 class="font-display text-[clamp(1.75rem,3.6vw,3rem)] uppercase leading-[0.92] tracking-[-0.02em]">Torneos de esta semana</h2>
+<p class="max-w-md text-[15px] leading-relaxed">Inscríbete en la barra hasta una hora antes. Los premios se pagan en consumo y en mesa libre.</p>
+</div>
+<ul class="mt-10 grid gap-x-12 gap-y-10 md:grid-cols-2">
+
+<li class="flex flex-col items-start gap-3 carambola-torneos_agenda">
+<p class="font-display text-xl uppercase leading-none text-negro">Martes 7:00 p. m.</p>
+<div class=""><h3 class="text-lg font-semibold">Liga de dardos 501</h3><p class="mt-1 text-[15px]">Individual, al mejor de tres. Se acumulan puntos todo el mes.</p></div>
+<p class="self-start rounded-full px-4 py-1.5 text-sm font-semibold [.carambola-torneos_agenda:nth-of-type(4n+1)_&amp;]:bg-negro [.carambola-torneos_agenda:nth-of-type(4n+1)_&amp;]:text-verde [.carambola-torneos_agenda:nth-of-type(4n+2)_&amp;]:bg-negro [.carambola-torneos_agenda:nth-of-type(4n+2)_&amp;]:text-verde [.carambola-torneos_agenda:nth-of-type(4n+3)_&amp;]:bg-negro [.carambola-torneos_agenda:nth-of-type(4n+3)_&amp;]:text-verde [.carambola-torneos_agenda:nth-of-type(4n+4)_&amp;]:text-negro">Inscripción $10.000</p>
+</li>
+
+<li class="flex flex-col items-start gap-3 carambola-torneos_agenda">
+<p class="font-display text-xl uppercase leading-none text-negro">Jueves 8:00 p. m.</p>
+<div class=""><h3 class="text-lg font-semibold">Pool bola 8 por parejas</h3><p class="mt-1 text-[15px]">16 parejas, eliminación directa. La pareja ganadora se lleva $400.000 en consumo.</p></div>
+<p class="self-start rounded-full px-4 py-1.5 text-sm font-semibold [.carambola-torneos_agenda:nth-of-type(4n+1)_&amp;]:bg-negro [.carambola-torneos_agenda:nth-of-type(4n+1)_&amp;]:text-verde [.carambola-torneos_agenda:nth-of-type(4n+2)_&amp;]:bg-negro [.carambola-torneos_agenda:nth-of-type(4n+2)_&amp;]:text-verde [.carambola-torneos_agenda:nth-of-type(4n+3)_&amp;]:bg-negro [.carambola-torneos_agenda:nth-of-type(4n+3)_&amp;]:text-verde [.carambola-torneos_agenda:nth-of-type(4n+4)_&amp;]:text-negro">$40.000 por pareja</p>
+</li>
+
+<li class="flex flex-col items-start gap-3 carambola-torneos_agenda">
+<p class="font-display text-xl uppercase leading-none text-negro">Sábado 5:00 p. m.</p>
+<div class=""><h3 class="text-lg font-semibold">Carambola a tres bandas</h3><p class="mt-1 text-[15px]">Individual, partidas a 15 carambolas. Cupo para 12 jugadores.</p></div>
+<p class="self-start rounded-full px-4 py-1.5 text-sm font-semibold [.carambola-torneos_agenda:nth-of-type(4n+1)_&amp;]:bg-negro [.carambola-torneos_agenda:nth-of-type(4n+1)_&amp;]:text-verde [.carambola-torneos_agenda:nth-of-type(4n+2)_&amp;]:bg-negro [.carambola-torneos_agenda:nth-of-type(4n+2)_&amp;]:text-verde [.carambola-torneos_agenda:nth-of-type(4n+3)_&amp;]:bg-negro [.carambola-torneos_agenda:nth-of-type(4n+3)_&amp;]:text-verde [.carambola-torneos_agenda:nth-of-type(4n+4)_&amp;]:text-negro">Inscripción $25.000</p>
+</li>
+
+<li class="flex flex-col items-start gap-3 carambola-torneos_agenda">
+<p class="font-display text-xl uppercase leading-none text-negro">Domingo 4:00 p. m.</p>
+<div class=""><h3 class="text-lg font-semibold">Ping-pong abierto</h3><p class="mt-1 text-[15px]">Sets a 11, todos contra todos. Quien gane juega gratis la próxima semana.</p></div>
+<p class="self-start rounded-full px-4 py-1.5 text-sm font-semibold [.carambola-torneos_agenda:nth-of-type(4n+1)_&amp;]:bg-negro [.carambola-torneos_agenda:nth-of-type(4n+1)_&amp;]:text-verde [.carambola-torneos_agenda:nth-of-type(4n+2)_&amp;]:bg-negro [.carambola-torneos_agenda:nth-of-type(4n+2)_&amp;]:text-verde [.carambola-torneos_agenda:nth-of-type(4n+3)_&amp;]:bg-negro [.carambola-torneos_agenda:nth-of-type(4n+3)_&amp;]:text-verde [.carambola-torneos_agenda:nth-of-type(4n+4)_&amp;]:text-negro">Gratis con consumo</p>
+</li>
+
+
+
+
+</ul>
+</section>
+
+<section class="mt-4 rounded-[32px] bg-negro p-6 text-verde md:mt-5 md:p-12 lg:p-14">
+<div class="flex flex-wrap items-end justify-between gap-x-8 gap-y-4">
+<h2 class="font-display text-[clamp(1.75rem,3.6vw,3rem)] uppercase leading-[0.92] tracking-[-0.02em] text-verde">Para comer en la mesa</h2>
+<p class="max-w-md text-[15px] leading-relaxed">Carta corta y rápida para no cortar la partida. Pides en la barra y te lo llevamos a la mesa.</p>
+</div>
+<ul class="mt-8 grid grid-cols-2 gap-x-4 gap-y-8 md:gap-x-5 lg:grid-cols-4">
+
+<li class="carambola-carta_productos">
+<img alt="Imagen de carta productos de Carambola" class="aspect-square w-full rounded-[32px] object-cover" loading="lazy" src="https://media.stronglify.com/295/carambola-01-1791313006-1791391865.png"/>
+<h3 class="mt-4 font-display text-lg uppercase leading-none">Hamburguesa tres bandas</h3>
+<p class="mt-2 text-sm leading-relaxed text-verde/80">Carne de 180 g, cheddar, tocineta y cebolla crocante. Con papas.</p>
+<p class="mt-3 inline-flex rounded-full bg-verde px-4 py-1.5 text-sm font-semibold text-negro">$32.000</p>
+</li>
+
+<li class="carambola-carta_productos">
+<img alt="Imagen de carta productos de Carambola" class="aspect-square w-full rounded-[32px] object-cover" loading="lazy" src="https://media.stronglify.com/295/carambola-02-1791313016-1791391864.png"/>
+<h3 class="mt-4 font-display text-lg uppercase leading-none">Papas con queso y jalapeño</h3>
+<p class="mt-2 text-sm leading-relaxed text-verde/80">Porción para dos. Con salsa de ajo o de la casa.</p>
+<p class="mt-3 inline-flex rounded-full bg-verde px-4 py-1.5 text-sm font-semibold text-negro">$18.000</p>
+</li>
+
+<li class="carambola-carta_productos">
+<img alt="Imagen de carta productos de Carambola" class="aspect-square w-full rounded-[32px] object-cover" loading="lazy" src="https://media.stronglify.com/295/carambola-03-1791313019-1791391859.png"/>
+<h3 class="mt-4 font-display text-lg uppercase leading-none">Alitas barbacoa</h3>
+<p class="mt-2 text-sm leading-relaxed text-verde/80">Ocho alitas, apio y salsa de queso azul.</p>
+<p class="mt-3 inline-flex rounded-full bg-verde px-4 py-1.5 text-sm font-semibold text-negro">$26.000</p>
+</li>
+
+<li class="carambola-carta_productos">
+<img alt="Imagen de carta productos de Carambola" class="aspect-square w-full rounded-[32px] object-cover" loading="lazy" src="https://media.stronglify.com/295/carambola-04-1791313021-1791391860.png"/>
+<h3 class="mt-4 font-display text-lg uppercase leading-none">Cerveza de barril</h3>
+<p class="mt-2 text-sm leading-relaxed text-verde/80">Rubia, roja o negra de cervecería bogotana, 400 ml. Jarra de 1,5 L a $38.000.</p>
+<p class="mt-3 inline-flex rounded-full bg-verde px-4 py-1.5 text-sm font-semibold text-negro">$12.000</p>
+</li>
+
+
+
+
+</ul>
+</section>
+
+<section class="mt-4 grid overflow-hidden rounded-[32px] bg-verde md:mt-5 lg:grid-cols-2">
+<div class="p-6 md:p-12 lg:p-14">
+<h2 class="font-display text-[clamp(1.75rem,3.6vw,3rem)] uppercase leading-[0.92] tracking-[-0.02em]">Calle 45 # 8-27, Chapinero</h2>
+<div class="[&amp;&gt;p:nth-of-type(1)]:mt-5 [&amp;&gt;p:nth-of-type(1)]:max-w-lg [&amp;&gt;p:nth-of-type(1)]:text-[15px] [&amp;&gt;p:nth-of-type(1)]:leading-relaxed [&amp;&gt;p:nth-of-type(2)]:mt-4 [&amp;&gt;p:nth-of-type(2)]:max-w-lg [&amp;&gt;p:nth-of-type(2)]:text-[15px] [&amp;&gt;p:nth-of-type(2)]:leading-relaxed"><p>A dos cuadras de la carrera 7 subiendo por la 45, en el segundo piso de una casa de ladrillo con la puerta pintada de negro. Desde la estación Calle 45 de TransMilenio son ocho minutos a pie.</p><p>Hay parqueadero para motos en la entrada y bicicletero adentro. Entrada solo para mayores de 18 años.</p></div>
+
+<h3 class="mt-8 font-display text-lg uppercase leading-none">Horario</h3>
+<ul class="mt-4 flex flex-wrap gap-3">
+
+<li class="rounded-full px-4 py-2 text-sm font-semibold text-negro carambola-ubicacion_horarios"><span>Lunes a jueves, 2:00 p. m. a 12:00 a. m.</span></li>
+
+<li class="rounded-full px-4 py-2 text-sm font-semibold text-negro carambola-ubicacion_horarios"><span>Viernes y sábados, 2:00 p. m. a 2:00 a. m.</span></li>
+
+<li class="rounded-full px-4 py-2 text-sm font-semibold text-negro carambola-ubicacion_horarios"><span>Domingos y festivos, 1:00 p. m. a 10:00 p. m.</span></li>
+
+
+
+</ul>
+<div class="mt-8 flex flex-wrap items-center gap-3">
+<a class="inline-flex items-center justify-center rounded-full bg-negro px-7 py-3.5 font-display text-sm uppercase text-verde hover:bg-tinta" href="#">Cómo llegar</a>
+<a class="inline-flex items-center justify-center rounded-full border-2 border-tinta px-6 py-3 text-sm font-semibold hover:bg-tinta hover:text-verde" href="#">Llamar al (601) 745 12 90</a>
+</div>
+</div>
+<img alt="Interior de un bar de billar de noche: filas de mesas de pool con paño verde iluminadas por lámparas bajas, un grupo de amigos de veintitantos años riendo con tacos en la mano, paredes pintadas de negro con detalles verdes y luz cálida" class="aspect-[4/3] w-full object-cover lg:aspect-auto lg:h-full" loading="lazy" src="https://media.stronglify.com/295/carambola-05-1791313026-1791391857.png"/>
+</section>
+
+<section class="mt-14 md:mt-20">
+<div class="flex flex-wrap items-end justify-between gap-x-8 gap-y-4">
+<h2 class="font-display text-[clamp(2.25rem,5vw,4.5rem)] uppercase leading-[0.9] tracking-[-0.03em]">Notas desde la barra</h2>
+<a class="inline-flex rounded-full border-2 border-tinta px-5 py-2 text-sm font-semibold hover:bg-tinta hover:text-verde" href="#">Ver todas las notas</a>
+</div>
+<ul class="mt-6 grid gap-4 md:grid-cols-3 md:gap-5 lg:mt-8">
+
+<li class="flex flex-col overflow-hidden rounded-[32px] [&amp;:nth-of-type(3n+1)]:bg-negro [&amp;:nth-of-type(3n+1)]:text-verde [&amp;:nth-of-type(3n+2)]:bg-verde [&amp;:nth-of-type(3n+3)]:bg-negro [&amp;:nth-of-type(3n+3)]:text-verde carambola-blog_notas">
+<img alt="Imagen de blog notas de Carambola" class="aspect-[4/3] w-full object-cover" loading="lazy" src="https://media.stronglify.com/295/carambola-06-1791313028-1791391854.png"/>
+<div class="flex flex-1 flex-col p-6 md:p-8">
+<p class="text-sm [.carambola-blog_notas:nth-of-type(3n+1)_&amp;]:text-verde/80 [.carambola-blog_notas:nth-of-type(3n+3)_&amp;]:text-verde/80">24 de septiembre de 2026</p>
+<h3 class="mt-2 font-display text-xl uppercase leading-[0.95] tracking-[-0.02em] md:text-2xl [.carambola-blog_notas:nth-of-type(3n+1)_&amp;]:text-verde [.carambola-blog_notas:nth-of-type(3n+2)_&amp;]:text-negro [.carambola-blog_notas:nth-of-type(3n+3)_&amp;]:text-verde">Reglas básicas de la carambola a tres bandas</h3>
+<p class="mt-3 text-[15px] leading-relaxed">Tres bolas, cero troneras y una sola regla que importa: la bola tiene que tocar tres bandas antes de la segunda bola. Lo demás se aprende jugando.</p>
+<a class="mt-6 inline-flex self-start rounded-full px-4 py-1.5 text-sm font-semibold [.carambola-blog_notas:nth-of-type(3n+1)_&amp;]:bg-verde [.carambola-blog_notas:nth-of-type(3n+1)_&amp;]:text-negro hover:[.carambola-blog_notas:nth-of-type(3n+1)_&amp;]:bg-verde [.carambola-blog_notas:nth-of-type(3n+2)_&amp;]:bg-negro [.carambola-blog_notas:nth-of-type(3n+2)_&amp;]:text-verde hover:[.carambola-blog_notas:nth-of-type(3n+2)_&amp;]:bg-tinta [.carambola-blog_notas:nth-of-type(3n+3)_&amp;]:bg-verde [.carambola-blog_notas:nth-of-type(3n+3)_&amp;]:text-negro hover:[.carambola-blog_notas:nth-of-type(3n+3)_&amp;]:bg-verde" href="#">Leer la nota</a>
+</div>
+</li>
+
+<li class="flex flex-col overflow-hidden rounded-[32px] [&amp;:nth-of-type(3n+1)]:bg-negro [&amp;:nth-of-type(3n+1)]:text-verde [&amp;:nth-of-type(3n+2)]:bg-verde [&amp;:nth-of-type(3n+3)]:bg-negro [&amp;:nth-of-type(3n+3)]:text-verde carambola-blog_notas">
+<img alt="Imagen de blog notas de Carambola" class="aspect-[4/3] w-full object-cover" loading="lazy" src="https://media.stronglify.com/295/carambola-07-1791313030-1791391850.png"/>
+<div class="flex flex-1 flex-col p-6 md:p-8">
+<p class="text-sm [.carambola-blog_notas:nth-of-type(3n+1)_&amp;]:text-verde/80 [.carambola-blog_notas:nth-of-type(3n+3)_&amp;]:text-verde/80">10 de septiembre de 2026</p>
+<h3 class="mt-2 font-display text-xl uppercase leading-[0.95] tracking-[-0.02em] md:text-2xl [.carambola-blog_notas:nth-of-type(3n+1)_&amp;]:text-verde [.carambola-blog_notas:nth-of-type(3n+2)_&amp;]:text-negro [.carambola-blog_notas:nth-of-type(3n+3)_&amp;]:text-verde">Cómo organizar un torneo de pool entre amigos</h3>
+<p class="mt-3 text-[15px] leading-relaxed">Cuántas mesas pedir según el grupo, cómo armar la llave para que nadie espere más de veinte minutos y qué apostar para que valga la pena.</p>
+<a class="mt-6 inline-flex self-start rounded-full px-4 py-1.5 text-sm font-semibold [.carambola-blog_notas:nth-of-type(3n+1)_&amp;]:bg-verde [.carambola-blog_notas:nth-of-type(3n+1)_&amp;]:text-negro hover:[.carambola-blog_notas:nth-of-type(3n+1)_&amp;]:bg-verde [.carambola-blog_notas:nth-of-type(3n+2)_&amp;]:bg-negro [.carambola-blog_notas:nth-of-type(3n+2)_&amp;]:text-verde hover:[.carambola-blog_notas:nth-of-type(3n+2)_&amp;]:bg-tinta [.carambola-blog_notas:nth-of-type(3n+3)_&amp;]:bg-verde [.carambola-blog_notas:nth-of-type(3n+3)_&amp;]:text-negro hover:[.carambola-blog_notas:nth-of-type(3n+3)_&amp;]:bg-verde" href="#">Leer la nota</a>
+</div>
+</li>
+
+<li class="flex flex-col overflow-hidden rounded-[32px] [&amp;:nth-of-type(3n+1)]:bg-negro [&amp;:nth-of-type(3n+1)]:text-verde [&amp;:nth-of-type(3n+2)]:bg-verde [&amp;:nth-of-type(3n+3)]:bg-negro [&amp;:nth-of-type(3n+3)]:text-verde carambola-blog_notas">
+<img alt="Imagen de blog notas de Carambola" class="aspect-[4/3] w-full object-cover" loading="lazy" src="https://media.stronglify.com/295/carambola-08-1791313032-1791391846.png"/>
+<div class="flex flex-1 flex-col p-6 md:p-8">
+<p class="text-sm [.carambola-blog_notas:nth-of-type(3n+1)_&amp;]:text-verde/80 [.carambola-blog_notas:nth-of-type(3n+3)_&amp;]:text-verde/80">27 de agosto de 2026</p>
+<h3 class="mt-2 font-display text-xl uppercase leading-[0.95] tracking-[-0.02em] md:text-2xl [.carambola-blog_notas:nth-of-type(3n+1)_&amp;]:text-verde [.carambola-blog_notas:nth-of-type(3n+2)_&amp;]:text-negro [.carambola-blog_notas:nth-of-type(3n+3)_&amp;]:text-verde">Los arcades que tenemos y por qué</h3>
+<p class="mt-3 text-[15px] leading-relaxed">Las ocho máquinas las compramos en un remate en Bucaramanga y las reparamos aquí. Esta es la historia de cada una y cuál es la que más fichas se come.</p>
+<a class="mt-6 inline-flex self-start rounded-full px-4 py-1.5 text-sm font-semibold [.carambola-blog_notas:nth-of-type(3n+1)_&amp;]:bg-verde [.carambola-blog_notas:nth-of-type(3n+1)_&amp;]:text-negro hover:[.carambola-blog_notas:nth-of-type(3n+1)_&amp;]:bg-verde [.carambola-blog_notas:nth-of-type(3n+2)_&amp;]:bg-negro [.carambola-blog_notas:nth-of-type(3n+2)_&amp;]:text-verde hover:[.carambola-blog_notas:nth-of-type(3n+2)_&amp;]:bg-tinta [.carambola-blog_notas:nth-of-type(3n+3)_&amp;]:bg-verde [.carambola-blog_notas:nth-of-type(3n+3)_&amp;]:text-negro hover:[.carambola-blog_notas:nth-of-type(3n+3)_&amp;]:bg-verde" href="#">Leer la nota</a>
+</div>
+</li>
+
+
+
+</ul>
+</section>
+
+<section class="mt-14 rounded-[32px] bg-negro p-6 text-verde md:mt-20 md:p-12 lg:p-14">
+<div class="grid gap-8 lg:grid-cols-12 lg:items-end">
+<div class="lg:col-span-8">
+<h2 class="max-w-[14ch] font-display text-[clamp(2.25rem,5vw,4.5rem)] uppercase leading-[0.9] tracking-[-0.03em] text-verde">Reserva tu mesa antes de llegar</h2>
+<p class="mt-5 max-w-xl text-base leading-relaxed md:text-lg">Escríbenos con el día, la hora y cuántos vienen. Los viernes y sábados después de las 8:00 p. m. la mesa se guarda máximo 15 minutos. Para grupos de ocho o más juntamos dos mesas sin costo.</p>
+</div>
+<div class="flex flex-wrap items-center gap-3 lg:col-span-4 lg:justify-end">
+<a class="inline-flex items-center justify-center rounded-full bg-verde px-7 py-3.5 font-display text-sm uppercase text-negro hover:bg-verde" href="#">Reservar por WhatsApp</a>
+<p class="inline-flex rounded-full px-4 py-2 text-sm font-semibold text-verde">310 456 78 90</p>
+</div>
+</div>
+</section>
+</main>
+
+<div style="display:none" aria-hidden="true" class="border-2 border-transparent flex flex-col font-display gap-10 gap-2 gap-4 grid h-11 h-5 hover:border-negro hover:underline inline-flex items-center justify-center leading-none leading-relaxed max-w-sm md:col-span-2 md:col-span-3 md:col-span-5 md:flex-row md:gap-8 md:grid-cols-12 md:items-center md:justify-between mt-12 mt-4 not-italic pt-6 rounded-full space-y-2 text-3xl text-[15px] text-base text-negro text-sm tracking-[-0.04em] underline-offset-4 uppercase w-11 w-5"></div>
+
+<footer class="mx-auto max-w-[1400px] px-4 pb-8 pt-14 md:px-6 lg:px-8 lg:pt-20"><div class="grid gap-10 md:grid-cols-12 md:gap-8">
+      <div class="md:col-span-5">
+        <p class="font-display text-3xl uppercase leading-none tracking-[-0.04em]">Carambola</p>
+        <p class="mt-4 max-w-sm text-[15px] leading-relaxed">Billar y bar de juegos en Chapinero desde 2019. Doce mesas de pool, dos de carambola, arcade, ping-pong, dardos y cerveza de barril.</p>
+      </div>
+      <div class="md:col-span-2">
+        <h2 class="font-display text-base uppercase leading-none">Jugar</h2>
+        <ul class="mt-4 space-y-2 text-[15px]"><li><a href="#" class="underline-offset-4 hover:underline">Pool</a></li><li><a href="#" class="underline-offset-4 hover:underline">Carambola</a></li><li><a href="#" class="underline-offset-4 hover:underline">Arcade</a></li><li><a href="#" class="underline-offset-4 hover:underline">Torneos</a></li></ul>
+      </div>
+      <div class="md:col-span-2">
+        <h2 class="font-display text-base uppercase leading-none">Mesa</h2>
+        <ul class="mt-4 space-y-2 text-[15px]"><li><a href="#" class="underline-offset-4 hover:underline">Reservar</a></li><li><a href="#" class="underline-offset-4 hover:underline">Precios</a></li><li><a href="#" class="underline-offset-4 hover:underline">Carta</a></li><li><a href="#" class="underline-offset-4 hover:underline">Eventos privados</a></li></ul>
+      </div>
+      <div class="md:col-span-3">
+        <h2 class="font-display text-base uppercase leading-none">Visítanos</h2>
+        <address class="mt-4 space-y-2 text-[15px] not-italic">
+          <p>Calle 45 # 8-27, Chapinero, Bogotá</p>
+          <p><a href="#" class="underline-offset-4 hover:underline">(601) 745 12 90</a></p>
+          <p><a href="#" class="underline-offset-4 hover:underline">hola@carambola.co</a></p>
+          <p>Todos los días desde las 2:00 p. m.</p>
+        </address>
+      </div>
+    </div>
+    <div class="mt-12 flex flex-col gap-4 pt-6 text-sm md:flex-row md:items-center md:justify-between">
+      <p>© 2026 Carambola. Calle 45 # 8-27, Chapinero, Bogotá.</p>
+      <ul class="flex items-center gap-2 text-negro"><li><a href="#" class="inline-flex items-center justify-center rounded-full border-2 border-transparent hover:border-negro min-h-11 px-3 text-sm">Instagram</a></li><li><a href="#" class="inline-flex items-center justify-center rounded-full border-2 border-transparent hover:border-negro min-h-11 px-3 text-sm">WhatsApp</a></li><li><a href="#" class="inline-flex items-center justify-center rounded-full border-2 border-transparent hover:border-negro min-h-11 px-3 text-sm">Facebook</a></li></ul>
+    </div></footer><script>
+(() => {
+const abrir = document.getElementById('menu-abrir');
+const cerrar = document.getElementById('menu-cerrar');
+const menu = document.getElementById('menu-movil');
+if (!abrir || !cerrar || !menu) return;
+const estaAbierto = () => !menu.classList.contains('hidden');
+const setAbierto = (abierto) => {
+menu.classList.toggle('hidden', !abierto);
+menu.classList.toggle('flex', abierto);
+abrir.setAttribute('aria-expanded', String(abierto));
+document.body.classList.toggle('overflow-hidden', abierto);
+(abierto ? cerrar : abrir).focus();
+};
+abrir.addEventListener('click', () => setAbierto(true));
+cerrar.addEventListener('click', () => setAbierto(false));
+menu.addEventListener('click', (evento) => {
+if (evento.target.closest('a')) setAbierto(false);
+});
+document.addEventListener('keydown', (evento) => {
+if (evento.key === 'Escape' && estaAbierto()) setAbierto(false);
+});
+window.matchMedia('(min-width: 1024px)').addEventListener('change', (evento) => {
+if (evento.matches && estaAbierto()) setAbierto(false);
+});
+})();
+</script>
+</body></html>
